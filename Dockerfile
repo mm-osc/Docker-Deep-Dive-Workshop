@@ -1,5 +1,5 @@
 From golang:latest
-MAINTAINER DTherHtun <dther.htun@kbzbank.com>
+MAINTAINER DTherHtun <dther@opslab.space>
 ENV GOPATH /go
 RUN go get -u github.com/gorilla/mux && mkdir /app
 ADD . /app/
